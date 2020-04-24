@@ -1,8 +1,9 @@
 // You do not need to change any code in this file
-import React from "react";
+import React, { useState } from "react";
 import "./SearchBar.css";
 
-const SearchBar = () => {
+const SearchBar = () => {  
+
   return (
     <div className="search-bar-wrapper">
       <div className="image-wrapper">

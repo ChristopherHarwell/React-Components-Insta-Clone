@@ -3,7 +3,6 @@
 import React, {useState} from "react";
 import Post from "./Post";
 import "./Posts.css";
-import PostHeader from "./PostHeader";
 // import data 
 import dummyData from "../../dummy-data";
 
