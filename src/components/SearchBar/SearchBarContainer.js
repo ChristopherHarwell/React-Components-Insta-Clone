@@ -8,10 +8,12 @@ return (
       <div className="image-wrapper">
         <i className="fab fa-instagram" />
       </div>
+      <h1>InstaClone</h1>
       <form className="search-form">
         <input
+          className="fa fa-search"
           type="text"
-          placeholder="Search"
+          placeholder={`\u2315 Search`}
         />
       </form>
       <div className="social-wrapper">

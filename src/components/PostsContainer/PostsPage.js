@@ -6,15 +6,16 @@ import "./Posts.css";
 // import data 
 import dummyData from "../../dummy-data";
 
-const PostsPage = () => {
+const PostsPage = (props) => {
   // set up state for your data
-  const [data, setData] = useState(dummyData);
+
 
   return (
     <div className="posts-container-wrapper">
       {/* map through data here to return a Post and pass data as props to Post */}
-        {data.map(theData => {
-          return <Post 
+        {props.post.map(theData => {
+          return <Post
+          key={theData.imageUrl} 
           post = {theData}
         />
       })}
