@@ -1,10 +1,9 @@
 // You do not need to change any code in this file
-import React, { useState } from "react";
+import React from "react";
 import "./SearchBar.css";
 
 const SearchBar = () => {  
-
-  return (
+return (
     <div className="search-bar-wrapper">
       <div className="image-wrapper">
         <i className="fab fa-instagram" />

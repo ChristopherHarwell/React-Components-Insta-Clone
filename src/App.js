@@ -4,12 +4,11 @@ PostsContainer components and the CommentSection Components.
 Not all files need code added. 
 Look at each file to see where you need to pass props or add code 
 */
-import React, { useState } from "react";
+import React, { setState } from "react";
 import "./App.css";
 // import the PostsPage and SearchBar and add them to the App
 import SearchBarContainer from "./components/SearchBar/SearchBarContainer";
 import PostsPage from "../src/components/PostsContainer/PostsPage";
-import CommentSection from "./components/CommentSection/CommentSectionContainer";
 
 const App = () => {
 
